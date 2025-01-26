@@ -308,4 +308,4 @@ class Database:
         return user.get('save', False) 
     
 
-db = Database(USER_DB_URI, DATABASE_NAME)
+db = Database(OTHER_DB_URI, DATABASE_NAME)
