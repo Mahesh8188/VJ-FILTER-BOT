@@ -94,6 +94,7 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'akDiscussion_group') # Support Chat 
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Mahesh8182')
 
 # True Or False
+IS_SEND_MOVIE_UPDATE = is_enabled('IS_SEND_MOVIE_UPDATE', False) 
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
 PM_SEARCH = bool(environ.get('PM_SEARCH', True))
 BUTTON_MODE = bool(environ.get('BUTTON_MODE', True))
